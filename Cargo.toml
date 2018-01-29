@@ -1,9 +1,9 @@
 [package]
-name = "citadel"
+name = "citadel-crud"
 version = "0.1.0"
 authors = ["Nathaniel Pisarski <nathanpisarski@gmail.com>"]
 description = "Create tangible CRUD components for concern separation and dependency injection. Currently only works with SqlLite"
+license = "MIT"
 
 [dependencies]
-diesel = { version = "1.0.0-beta1", features = ["sqlite"]}
-diesel_infer_schema = { version = "1.0.0-beta1", features = ["sqlite"]}
+rusqlite = "0.13.0"
