@@ -6,5 +6,5 @@ use rusqlite::Connection;
 pub trait DatabaseConnection {
     fn establish_connection(&mut self);
     fn end_connection(&mut self) -> ();
-    fn raw_connection(&self) -> Rc<Connection>;
+    fn raw_connection(&self) -> Option<Rc<Connection>>;
 }

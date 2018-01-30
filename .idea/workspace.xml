@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a284108-192e-4590-8e13-ad35d493f664" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/common/mod.rs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/common/schema.rs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/creator_test.rs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/deleter_test.rs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/reader_test.rs" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/updater_test.rs" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/integration_test.rs" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" afterPath="$PROJECT_DIR$/Cargo.toml" />
       <change beforePath="$PROJECT_DIR$/src/connections/sqlite_connection.rs" afterPath="$PROJECT_DIR$/src/connections/sqlite_connection.rs" />
-      <change beforePath="$PROJECT_DIR$/src/lib.rs" afterPath="$PROJECT_DIR$/src/lib.rs" />
       <change beforePath="$PROJECT_DIR$/src/system.rs" afterPath="$PROJECT_DIR$/src/system.rs" />
+      <change beforePath="$PROJECT_DIR$/tests/common/mod.rs" afterPath="$PROJECT_DIR$/tests/common/mod.rs" />
+      <change beforePath="$PROJECT_DIR$/tests/creator_test.rs" afterPath="$PROJECT_DIR$/tests/common/employee_creator.rs" />
+      <change beforePath="$PROJECT_DIR$/tests/deleter_test.rs" afterPath="$PROJECT_DIR$/tests/common/employee_deleter.rs" />
+      <change beforePath="$PROJECT_DIR$/tests/reader_test.rs" afterPath="$PROJECT_DIR$/tests/common/employee_reader.rs" />
+      <change beforePath="$PROJECT_DIR$/tests/updater_test.rs" afterPath="$PROJECT_DIR$/tests/common/employee_updater.rs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,44 +21,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="creator.rs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/creator.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="sqlite_connection.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/connections/sqlite_connection.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="creator_test.rs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/creator_test.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="544">
+              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
-                <element signature="e#904#905#0" expanded="true" />
                 <element signature="e#931#932#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reader_test.rs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/reader_test.rs">
+      <file leaf-file-name="employee_creator.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/common/employee_creator.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee_deleter.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/common/employee_deleter.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee_reader.rs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/common/employee_reader.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="integration_test.rs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/integration_test.rs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="77" lean-forward="false" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -70,8 +80,8 @@
       <file leaf-file-name="mod.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/common/mod.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            <state relative-caret-position="85">
+              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -107,21 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deleter.rs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/deleter.rs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="system.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/system.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+            <state relative-caret-position="153">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -164,11 +164,15 @@
         <option value="$PROJECT_DIR$/src/lib.rs" />
         <option value="$PROJECT_DIR$/tests/common/schema.rs" />
         <option value="$PROJECT_DIR$/tests/common/table_schema.rs" />
-        <option value="$PROJECT_DIR$/tests/common/mod.rs" />
-        <option value="$PROJECT_DIR$/src/system.rs" />
-        <option value="$PROJECT_DIR$/src/connections/sqlite_connection.rs" />
         <option value="$PROJECT_DIR$/tests/creator_test.rs" />
         <option value="$PROJECT_DIR$/tests/reader_test.rs" />
+        <option value="$PROJECT_DIR$/tests/common/mod.rs" />
+        <option value="$PROJECT_DIR$/tests/test.rs" />
+        <option value="$PROJECT_DIR$/src/connections/sqlite_connection.rs" />
+        <option value="$PROJECT_DIR$/src/system.rs" />
+        <option value="$PROJECT_DIR$/tests/common/employee_reader.rs" />
+        <option value="$PROJECT_DIR$/tests/common/employee_creator.rs" />
+        <option value="$PROJECT_DIR$/tests/integration_test.rs" />
       </list>
     </option>
   </component>
@@ -366,12 +370,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516429875247</updated>
       <workItem from="1516429876522" duration="1682000" />
-      <workItem from="1516568543995" duration="13168000" />
+      <workItem from="1516568543995" duration="16370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14850000" />
+    <option name="totallyTimeSpent" value="18052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="12" width="2536" height="1397" extended-state="0" />
@@ -385,14 +389,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12401264" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -519,15 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/updater_test.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/deleter_test.rs">
+    <entry file="file://$PROJECT_DIR$/tests/common/employee_updater.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -607,41 +603,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/common/mod.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/system.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/connections/sqlite_connection.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/creator_test.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="e#904#905#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/reader.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -650,10 +611,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/reader_test.rs">
+    <entry file="file://$PROJECT_DIR$/tests/common/mod.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="85">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/connections/sqlite_connection.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+          <folding>
+            <element signature="e#931#932#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/system.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/common/employee_deleter.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/common/employee_reader.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/common/employee_creator.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/integration_test.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="77" lean-forward="false" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
           <folding />
         </state>
       </provider>
