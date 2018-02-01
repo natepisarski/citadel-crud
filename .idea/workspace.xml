@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a284108-192e-4590-8e13-ad35d493f664" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/tests/common/employee_deleter.rs" afterPath="$PROJECT_DIR$/tests/common/employee_deleter.rs" />
       <change beforePath="$PROJECT_DIR$/tests/common/employee_updater.rs" afterPath="$PROJECT_DIR$/tests/common/employee_updater.rs" />
       <change beforePath="$PROJECT_DIR$/tests/common/mod.rs" afterPath="$PROJECT_DIR$/tests/common/mod.rs" />
       <change beforePath="$PROJECT_DIR$/tests/integration_test.rs" afterPath="$PROJECT_DIR$/tests/integration_test.rs" />
+      <change beforePath="$PROJECT_DIR$/tests/testdb.sqlite" afterPath="$PROJECT_DIR$/tests/testdb.sqlite" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,12 +43,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee_deleter.rs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="employee_deleter.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/common/employee_deleter.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+              <folding>
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#913#914#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,8 +69,8 @@
       <file leaf-file-name="integration_test.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/integration_test.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="615">
+              <caret line="49" column="58" lean-forward="false" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -82,14 +86,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee_updater.rs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="employee_updater.rs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/common/employee_updater.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+            <state relative-caret-position="629">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
-                <element signature="e#1196#1197#0" expanded="true" />
-                <element signature="e#1223#1224#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1205#1206#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +102,8 @@
       <file leaf-file-name="mod.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/common/mod.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="119">
+              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -169,8 +173,9 @@
         <option value="$PROJECT_DIR$/src/system.rs" />
         <option value="$PROJECT_DIR$/tests/common/employee_reader.rs" />
         <option value="$PROJECT_DIR$/tests/common/employee_creator.rs" />
-        <option value="$PROJECT_DIR$/tests/integration_test.rs" />
         <option value="$PROJECT_DIR$/tests/common/mod.rs" />
+        <option value="$PROJECT_DIR$/tests/common/employee_deleter.rs" />
+        <option value="$PROJECT_DIR$/tests/integration_test.rs" />
         <option value="$PROJECT_DIR$/tests/common/employee_updater.rs" />
       </list>
     </option>
@@ -370,12 +375,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516429875247</updated>
       <workItem from="1516429876522" duration="1682000" />
-      <workItem from="1516568543995" duration="18302000" />
+      <workItem from="1516568543995" duration="20490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19984000" />
+    <option name="totallyTimeSpent" value="22172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="12" width="2536" height="1397" extended-state="0" />
@@ -614,22 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/common/employee_reader.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/integration_test.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/common/employee_creator.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -643,8 +632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/common/mod.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -657,22 +646,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/common/employee_updater.rs">
+    <entry file="file://$PROJECT_DIR$/tests/common/employee_deleter.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="37" column="33" lean-forward="false" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
-            <element signature="e#1196#1197#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#913#914#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/common/employee_deleter.rs">
+    <entry file="file://$PROJECT_DIR$/tests/integration_test.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="615">
+          <caret line="49" column="58" lean-forward="false" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/common/employee_reader.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/common/employee_updater.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

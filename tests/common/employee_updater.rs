@@ -13,8 +13,8 @@ use common;
 use common::schema::*;
 
 pub struct EmployeeUpdater<'a> {
-    employee_id: u32,
-    replacement_employee: &'a Employee
+    pub employee_id: u32,
+    pub replacement_employee: &'a Employee
 }
 
 impl <'a> updater::Updater<sqlite_connection::SqliteConnection> for EmployeeUpdater<'a> {
@@ -29,9 +29,7 @@ impl <'a> updater::Updater<sqlite_connection::SqliteConnection> for EmployeeUpda
         let employee: &Employee = self.replacement_employee;
 
         usable_connection.execute(
-            "UPDATE Employee\
-            SET FirstName='?1', LastName='?2', DepartmentId=?3\
-            WHERE EmployeeId = ?4",
+            "UPDATE Employee SET FirstName = ?1, LastName=?2, DepartmentId = ?3 WHERE EmployeeId = ?4",
             &[&employee.first_name,
                 &employee.last_name,
                 &employee.department_id,

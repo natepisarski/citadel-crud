@@ -40,11 +40,18 @@ pub fn integration_test() {
     // TODO: Make it not crash for non-found rows
 
     // Step 4: Change "Fred Hicks" last name to "Fred Hickman"
+    let fred_updater = employee_updater::EmployeeUpdater { employee_id: 0,
+        replacement_employee: &Employee { department_id: 0, first_name: "Fred".to_string(), last_name: "Hickman".to_string(), id: 0}};
+    fred_updater.update(&db_connection);
 
     // Step 4.5: Re-use reader to validate name change
+    let new_employee_list = &fred_reader.read(&db_connection);
+    assert!(new_employee_list.len() > 0);
+    assert_eq!("Hickman".to_string(), new_employee_list[0].last_name);
 
     // Step 5: Delete the employee "Fred Hickman"
+    let fred_deleter = employee_deleter::EmployeeDeleter { employee_id: 0};
 
     // Step 5.5: Validate that we cannot read the employee "Fred Hickman"
-
+    // TODO: Make it not crash for non-found rows
 }
