@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a284108-192e-4590-8e13-ad35d493f664" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/integration_test.rs" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/connections/sqlite_connection.rs" afterPath="$PROJECT_DIR$/src/connections/sqlite_connection.rs" />
-      <change beforePath="$PROJECT_DIR$/src/system.rs" afterPath="$PROJECT_DIR$/src/system.rs" />
-      <change beforePath="$PROJECT_DIR$/tests/common/mod.rs" afterPath="$PROJECT_DIR$/tests/common/mod.rs" />
-      <change beforePath="$PROJECT_DIR$/tests/creator_test.rs" afterPath="$PROJECT_DIR$/tests/common/employee_creator.rs" />
-      <change beforePath="$PROJECT_DIR$/tests/deleter_test.rs" afterPath="$PROJECT_DIR$/tests/common/employee_deleter.rs" />
-      <change beforePath="$PROJECT_DIR$/tests/reader_test.rs" afterPath="$PROJECT_DIR$/tests/common/employee_reader.rs" />
-      <change beforePath="$PROJECT_DIR$/tests/updater_test.rs" afterPath="$PROJECT_DIR$/tests/common/employee_updater.rs" />
+      <change beforePath="$PROJECT_DIR$/tests/integration_test.rs" afterPath="$PROJECT_DIR$/tests/integration_test.rs" />
+      <change beforePath="$PROJECT_DIR$/tests/testdb.sqlite" afterPath="$PROJECT_DIR$/tests/testdb.sqlite" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,7 +53,7 @@
       <file leaf-file-name="employee_reader.rs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/common/employee_reader.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
+            <state relative-caret-position="496">
               <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
@@ -70,8 +63,8 @@
       <file leaf-file-name="integration_test.rs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/integration_test.rs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="77" lean-forward="false" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+            <state relative-caret-position="595">
+              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -370,12 +363,12 @@
       <option name="presentableId" value="Default" />
       <updated>1516429875247</updated>
       <workItem from="1516429876522" duration="1682000" />
-      <workItem from="1516568543995" duration="16370000" />
+      <workItem from="1516568543995" duration="17298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18052000" />
+    <option name="totallyTimeSpent" value="18980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="12" width="2536" height="1397" extended-state="0" />
@@ -389,7 +382,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -646,14 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/common/employee_reader.rs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/common/employee_creator.rs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -665,10 +650,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/common/employee_reader.rs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/integration_test.rs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="77" lean-forward="false" selection-start-line="22" selection-start-column="77" selection-end-line="22" selection-end-column="77" />
+        <state relative-caret-position="595">
+          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
           <folding />
         </state>
       </provider>

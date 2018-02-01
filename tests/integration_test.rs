@@ -3,6 +3,7 @@ extern crate citadel_crud;
 mod common;
 
 use common::*;
+use common::schema::*;
 
 use citadel_crud::components::creator::Creator;
 use citadel_crud::components::reader::Reader;
@@ -28,7 +29,15 @@ pub fn integration_test() {
     let employee_object = schema::Employee { first_name: "Fred".to_string(), last_name: "Hicks".to_string(), id: 0, department_id: 0};
     assert!(creator.insert(&db_connection, employee_object));
 
-    // Step 3: See if we can read the employee "Fred Hicks"
+    // Step 3: See if we can read the employee "Fred Hicks", but not "Tom Hicks"
+    let fred_reader = employee_reader::EmployeeReader { first_name: "Fred".to_string()};
+    let tom_reader = employee_reader::EmployeeReader { first_name: "Tom".to_string()};
+    let employee_list: Vec<Employee> = fred_reader.read(&db_connection);
+    let fred = &employee_list[0];
+
+    assert_eq!(1, employee_list.len());
+    assert_eq!(fred.last_name, "Hicks".to_string());
+    // TODO: Make it not crash for non-found rows
 
     // Step 4: Change "Fred Hicks" last name to "Fred Hickman"
 
